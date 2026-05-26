@@ -1,0 +1,174 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:'montserrat', sans-serif;
+    background-color: aliceblue;
+}
+
+.container{
+    width:90%;
+    height:70% ;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px auto;
+    display:flex;
+    flex-direction: row;
+}
+
+.horas{
+    border-right: 1px solid black;  
+    width: 20%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.hora{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom: black 1px dashed;
+
+}
+.hora:nth-child(6){
+    border-bottom: none;
+
+}
+.hora:nth-child(1){
+        border-top: 1px dashed black ;
+}
+.dias{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    border-right: 1px solid black;
+}
+.dia{
+    border-right: 1px solid black;
+    width: 20%;
+    height: 100%;
+    flex-grow: 1;
+    
+}
+
+.dia:nth-child(5){
+    border-right: none;
+}
+
+.encabezado{
+    border-bottom: 1px dashed black;
+    text-align: center;
+    padding-top: 20.5px;
+    padding-bottom: 20.5px;
+
+}
+.ingles{
+    position: relative;
+    top: 0px;
+    background-color: rgb(200, 160, 233);
+    border-radius:10px ;
+    width: 90%;
+    height: 270px;
+    margin: 0 auto;
+    border: black 1px solid;
+}
+
+.bases{
+    position: relative;
+    top: 0px;
+    background-color: rgb(233, 160, 193);
+    border-radius: 10px;
+    width: 90%;
+    height: 270px;
+    margin: 0 auto;
+    border: black 1px solid;
+     
+}
+
+
+.html{
+    position: relative;
+    top: 0px;
+    background-color: rgb(233, 160, 193);
+    border-radius: 10px;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    border: black 1px solid;
+     
+}
+
+.python{
+    position: relative;
+    top: 0px;
+    background-color: rgb(233, 160, 193);
+    border-radius: 10px;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    border: black 1px solid;
+     
+}
+
+.proyecto{
+    position: relative;
+    top: 0px;
+    background-color: rgb(233, 160, 193);
+    border-radius: 10px;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    border: black 1px solid;
+     
+}
+
+.comunicacion{
+    position: relative;
+    top: 270px;
+    background-color: rgb(200, 160, 233);
+    border-radius: 10px;
+    width: 90%;
+    height: 270px;
+    margin: 0 auto;
+    border: black 1px solid;
+     
+}
+
+.icono{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+}
+.titulo{
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.instructor{
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    font-size: 12px;
+   
+}
+
+.descripcion{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    font-size: 10px;
+}
